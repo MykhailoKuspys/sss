@@ -1,0 +1,198 @@
+/* spec */
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    color: #0068ff;
+}
+
+h2 {
+    color: #fff;
+}
+
+
+
+.title {
+    padding-top: 126px;
+    text-align: center
+}
+
+.title_team {
+    padding-top: 0px;
+    text-align: center
+}
+
+.title_portfolio {
+    padding-top: 70px;
+    text-align: center
+}
+
+.title__main {
+    font-size: 97px
+}
+
+.title__main 2 {
+    font-size: 97px
+}
+
+.title2 {
+    font-size: 97px;
+    text-align: center
+}
+
+.title__text2 {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    font-size: 24px;
+    width: 520px;
+    margin: 0 auto;
+    color: #0068ff;
+}
+
+.title__text {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    font-size: 24px;
+    width: 520px;
+    margin: 0 auto;
+   color: #0068ff;
+}
+
+
+/* screen */
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0
+}
+
+
+.header {
+    color: #ffffff;
+    padding-top: 44px;
+    min-height: 100vh;
+   background:#0068ff ;
+}
+.piramida  {background: url(../img/back.svg)  #0068ff no-repeat ;
+   background-size: cover;
+     background-position: 0 0;
+}
+
+.circles2 {background: url(../img/circles2.svg)  #0068ff no-repeat ;
+   background-size: 305 px 0;
+     background-position: 0 0;
+}
+
+.aboutback 
+{background: url(../img/aboutback.svg)  no-repeat ;
+   background-size: contain;
+     background-position: left;
+}
+
+.aboutback1
+{background: url(../img/aboutback1.svg)  no-repeat ;
+   background-size: contain;
+     background-position: right;
+}
+
+
+.menu {display: flex;
+justify-content: flex-start}
+
+.menu__item {
+    margin: 0 15px;
+}
+
+.menu__item a {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff
+}
+
+
+
+
+
+
+/* screen 2 */
+
+.gradient {
+
+
+    background: linear-gradient(to bottom, #fff, #7dffbe);
+    padding: 38px;
+
+}
+
+.gradient2 {
+
+
+    background: linear-gradient(to top, #fff, #7dffbe);
+    padding: 40px;
+
+}
+
+.team {
+    min-height: 50vh;
+}
+
+.portfolio {
+    background: #0068ff;
+}
+
+
+.text_line3 {
+    padding-bottom: 70px;
+    padding-top: 20px
+}
+.h5 {color: aqua}
+
+p3  {color: #79ffbb;}
+
+
+.title_contacts {
+   font-size: 24px; 
+    color: #ffffff;}
+    
+.footer {background-color: #0068ff;
+    display: flex;
+flex-direction: row
+}
+    @media screen and (max-width: 992px)
+    {
+        .menu {display: flex;
+        justify-content: center}
+
+.piramida  {background: url(../img/back.svg)  #0068ff no-repeat ;
+   background-size: cover;
+     background-position: 0 0;
+}
+    .aboutback 
+{background:   no-repeat ;
+   background-size: contain;
+     background-position: left;
+}
+
+.aboutback1
+{background:   no-repeat ;
+   background-size: contain;
+     background-position: right;
+}    
+        .contacts {background-color: #0068ff;
+    display: flex;
+flex-direction:row-reverse;
+            justify-content: center;
+flex-basis: auto
+}
+        
+        .tree {visibility:hidden}
+
+        .contacts {text-align: center}
+        
+}
+
+    
